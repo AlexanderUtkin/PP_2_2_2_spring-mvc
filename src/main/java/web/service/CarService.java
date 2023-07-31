@@ -1,11 +1,12 @@
 package web.service;
 
+import org.springframework.stereotype.Component;
 import web.model.Car;
 
 import java.util.List;
 
-public abstract class CarService {
-   public static List<Car> certainCars(){
-      return null;
-   }
+public interface CarService {
+  static List<Car> certainCars(int numberOfCars){
+     return null;
+  }
 }
