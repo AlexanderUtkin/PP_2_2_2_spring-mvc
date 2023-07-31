@@ -6,7 +6,5 @@ import web.model.Car;
 import java.util.List;
 
 public interface CarService {
-  static List<Car> certainCars(int numberOfCars){
-     return null;
-  }
+  List<Car> certainCars(int numberOfCars);
 }
